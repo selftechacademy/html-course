@@ -1,0 +1,47 @@
+#Title
+Avatar 2009 Imdb
+
+#Content
+
+IMDB Rating 7.9
+
+Avatar 2009
+
+Cast: 
+- Sam Worthington (Jake Sully)
+- Zoe Saldana (Neytiri)
+- Sigourney Weaver (Dr. Grace Augustine)
+- Michelle Rodriguez (Trudy Chacón) 
+- Stephen Lang (Colonel Miles Quaritch)
+- Giovanni Ribisi (Parker Selfridge)
+
+Storyline
+When his brother is killed in a robbery, 
+paraplegic Marine Jake Sully decides to take
+his place in a mission on the distant world of Pandora.
+There he learns of greedy corporate figurehead Parker Selfridge's
+intentions of driving off the native humanoid "Na'vi" in order to mine for
+the precious material scattered throughout their rich woodland.
+In exchange for the spinal surgery that will fix his legs,
+Jake gathers knowledge, of the Indigenous Race and their Culture,
+for the cooperating military unit spearheaded by gung-ho Colonel Quaritch,
+while simultaneously attempting to infiltrate the Na'vi people with the use
+of an "avatar" identity. While Jake begins to bond with the native tribe and quickly
+falls in love with the beautiful alien Neytiri, the restless Colonel moves forward 
+with his ruthless extermination tactics, forcing the soldier to take a stand - and 
+fight back in an epic battle for the fate of Pandora.
+
+Taglines  Enter the World
+Genres Action Adventure Fantasy Sci-Fi
+Motion Picture Rating (MPAA)
+Rated PG-13 for intense epic battle sequences and warfare, sensuality, language and some smoking
+
+
+Images: 
+//put four Images
+
+Trailer:
+// put videos here
+// NOTE! For the video from youtube, google how to embed youtube video to html. 
+
+&copy; Copyright 2023 All rights reserved
