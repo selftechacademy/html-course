@@ -9,57 +9,74 @@
   <body>
     <form action="" method="post">
       <h3>Step 1: Your Details</h3>
-      <label>Full Name:</label>
-      <input type="text" name="fullName" required /><br />
-      <label>Email:</label>
-      <input type="email" name="email" required /><br />
-      <label>Phone:</label>
-      <input type="number" name="phone" placeholder="Eg. +17772221111" /><br />
+      <label for="fullName">Full Name:</label>
+      <input type="text" name="fullName" id="fullName" required /><br />
+      <label for="fullName">Email:</label>
+      <input type="email" name="email" id="email" required /><br />
+      <label for="phone">Phone:</label>
+      <input
+        type="number"
+        name="phone"
+        id="phone"
+        placeholder="Eg. +17772221111"
+      /><br />
       <h3>Step 2: Delivery address</h3>
-      <label>Address:</label>
-      <input type="text" name="Address" required /><br />
-      <label>Apt:</label>
-      <input type="text" name="apt" /><br />
-      <label>Zip code: </label>
-      <input type="number" name="zipCode" required /><br />
-      <label>Select Country</label>
-      <select name="country">
+      <label for="address">Address:</label>
+      <input type="text" name="Address" id="address" required /><br />
+      <label for="apt">Apt:</label>
+      <input type="text" name="apt" id="apt" /><br />
+      <label for="zipCode">Zip code: </label>
+      <input type="number" name="zipCode" id="zipCode" required /><br />
+      <label for="country">Select Country</label>
+      <select name="country" id="country">
         <option value="USA">USA</option>
         <option value="Canada">Canada</option>
         <option value="Mexico">Mexico</option>
       </select>
       <h3>Desired Delivery Time and Date:</h3>
-      <label> Delivery Date: </label>
-      <input type="date" name="deliveryDate" /><br />
-      <label>Latest Time: </label>
-      <input type="time" name="latestTime" />
+      <label for="deliveryDate"> Delivery Date: </label>
+      <input type="date" name="deliveryDate" id="deliveryDate" /><br />
+      <label for="latestTime">Latest Time: </label>
+      <input type="time" name="latestTime" id="latestTime" />
       <br />
       <h3>Step 3: Card Details</h3>
       <p>Card type</p>
-      <input type="radio" name="amex" />
-      <label>Amex</label>
-      <input type="radio" name="masterCard" />
-      <label>Master Card</label>
-      <input type="radio" name="visa" />
-      <label>Visa</label><br />
-      <label>Card Number: </label>
+      <input type="radio" name="amex" id="amex" />
+      <label for="amex">Amex</label>
+      <input type="radio" name="masterCard" id="masterCard" />
+      <label for="masterCard">Master Card</label>
+      <input type="radio" name="visa" id="visa" />
+      <label for="visa">Visa</label><br />
+      <label for="cardNumber">Card Number: </label>
       <input
         type="number"
         name="cardNumber"
+        id="cardNumber"
         required
         placeholder="16 digits"
       /><br />
-      <label>Security Code: </label>
-      <input type="number" name="securityCode" required /><br />
-      <label>Name On Card: </label>
+      <label for="securityCode">Security Code: </label>
+      <input
+        type="number"
+        name="securityCode"
+        id="securityCode"
+        required
+      /><br />
+      <label for="nameOnCard">Name On Card: </label>
       <input
         type="text"
         name="nameOnCard"
+        id="nameOnCard"
         required
         placeholder="Exact as in your card"
       /><br />
-      <input type="checkbox" name="termsAndConditions" />
-      <label>Agree to terms and Conditions</label><br />
+      <input
+        type="checkbox"
+        name="termsAndConditions"
+        id="termsAndConditions"
+      />
+      <label for="termsAndConditions">Agree to terms and Conditions</label
+      ><br />
       <input type="submit" value="Checkout" />
     </form>
   </body>
